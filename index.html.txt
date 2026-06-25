@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Goku | Reality Walker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+        <div class="logo">CC GOKU</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="transformations.html">Transformations</a></li>
+            <li><a href="achievements.html">Feats</a></li>
+            <li><a href="abilities.html">Abilities</a></li>
+            <li><a href="stats.html">Stats</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">Warp Reality (Theme)</button>
+            <div class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero scroll-reveal">
+            <h1 class="glitch-hover">The Reality Walker</h1>
+            <p>Beyond canon. Beyond the gods. A Saiyan whose willpower bends existence itself.</p>
+            <a href="lore.html" class="btn">Discover the Origin</a>
+        </section>
+
+        <section class="grid mb-2">
+            <div class="card scroll-reveal">
+                <h2>Reality Creation</h2>
+                <p>Ability to birth entirely new multiverses from nothingness.</p>
+            </div>
+            <div class="card scroll-reveal">
+                <h2>Concept Erasure</h2>
+                <p>Power to delete timelines, concepts, and dimensions permanently.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Non-canon fan project. Dragon Ball © Bird Studio/Shueisha/Toei Animation. Not affiliated.</p>
+        <p class="author">Created by REXU</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

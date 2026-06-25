@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations | CC Goku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+        <div class="logo">CC GOKU</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="transformations.html" class="active">Transformations</a></li>
+            <li><a href="achievements.html">Feats</a></li>
+            <li><a href="abilities.html">Abilities</a></li>
+            <li><a href="stats.html">Stats</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">Warp Reality (Theme)</button>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="text-center mb-2 scroll-reveal">Transformation Gallery</h1>
+        <div class="grid" id="transformations-grid">
+            </div>
+    </main>
+
+    <div class="modal" id="trans-modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal" aria-label="Close">&times;</button>
+            <div class="aura-display" id="m-aura"></div>
+            <h2 id="m-name" class="glitch-hover mb-2 text-center">Name</h2>
+            <p><strong>Appearance:</strong> <span id="m-desc"></span></p>
+            <p><strong>Power Gain:</strong> <span id="m-power"></span></p>
+            <p><strong>Unlock Condition:</strong> <span id="m-unlock"></span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Non-canon fan project. Dragon Ball © Bird Studio/Shueisha/Toei Animation. Not affiliated.</p>
+        <p class="author">Created by REXU</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

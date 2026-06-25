@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lore | CC Goku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+        <div class="logo">CC GOKU</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lore.html" class="active">Lore</a></li>
+            <li><a href="transformations.html">Transformations</a></li>
+            <li><a href="achievements.html">Feats</a></li>
+            <li><a href="abilities.html">Abilities</a></li>
+            <li><a href="stats.html">Stats</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">Warp Reality (Theme)</button>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="text-center mb-2 scroll-reveal glitch-hover">Origin & Lore</h1>
+        <div class="card scroll-reveal mb-2">
+            <h2>The Divergence Point</h2>
+            <p>During the Tournament of Power, an anomaly in the Null Realm caused Goku to be permanently sealed outside of time. Rather than dying, his Saiyan biology adapted to the absolute nothingness.</p>
+            <br>
+            <h2>Mastering the Void</h2>
+            <p>Robbed of standard Ki, Goku learned to draw energy from the fabric of reality itself. He became the "Concept Crusher" (CC) — a being no longer restricted by the rules of Zeno or the Grand Priest.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Non-canon fan project. Dragon Ball © Bird Studio/Shueisha/Toei Animation. Not affiliated.</p>
+        <p class="author">Created by REXU</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

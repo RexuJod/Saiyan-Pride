@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats | CC Goku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+        <div class="logo">CC GOKU</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="transformations.html">Transformations</a></li>
+            <li><a href="achievements.html">Feats</a></li>
+            <li><a href="abilities.html">Abilities</a></li>
+            <li><a href="stats.html" class="active">Stats</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">Warp Reality (Theme)</button>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="text-center mb-2 scroll-reveal">Power Comparison</h1>
+        <div class="stats-controls scroll-reveal">
+            <label for="form-select"><strong>Select Form: </strong></label>
+            <select id="form-select">
+                </select>
+        </div>
+        <canvas id="stats-canvas" width="500" height="400" class="scroll-reveal"></canvas>
+    </main>
+
+    <footer>
+        <p>Non-canon fan project. Dragon Ball © Bird Studio/Shueisha/Toei Animation. Not affiliated.</p>
+        <p class="author">Created by REXU</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
